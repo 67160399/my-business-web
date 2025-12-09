@@ -1,7 +1,6 @@
 # ChronoCafe — Pure White Minimal Website
 
-เว็บไซต์จำลองสำหรับธุรกิจ ChronoCafe คาเฟ่แนวมินิมอลญี่ปุ่นที่ “ขายเวลา” แทนการขายกาแฟ  
-พัฒนาเพื่อส่งงาน Assignment #1 ในรายวิชาเขียนเว็บ (HTML)
+เว็บไซต์จำลองสำหรับธุรกิจ ChronoCafe คาเฟ่แนวมินิมอลญี่ปุ่นที่ “ขายเวลา” แทนการขายกาแฟ
 
 ---
 
@@ -52,9 +51,9 @@ my-business-web
 
 ## ลิงก์ไปยังหน้าเว็บต่าง ๆ
 
-- [หน้าแรก (index.html)](index.html)
-- [เกี่ยวกับเรา (about.html)](about.html)
-- [บริการ (services.html)](services.html)
-- [ติดต่อเรา (contact.html)](contact.html)
+- <a href="http://127.0.0.1:5500/index.html">หน้าแรก</a>
+- <a href="http://127.0.0.1:5500/about.html">เกี่ยวกับเรา</a>
+- <a href="http://127.0.0.1:5500/services.html">บริการ</a>
+- <a href="http://127.0.0.1:5500/contact.html">ติดต่อเรา</a>
 
 ---
