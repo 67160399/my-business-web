@@ -12,9 +12,9 @@ my-business-web
 ├── services.html  
 ├── contact.html  
 ├── images/  
-│ ├── logo.png  
-│ ├── team-1.jpg  
-│ ├── team-2.jpg  
+│ ├── about1.png  
+│ ├── about2.png  
+│ ├── contact.png  
 │ └── ...  
 └── README.md
 
