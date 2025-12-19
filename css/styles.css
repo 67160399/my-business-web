@@ -189,3 +189,24 @@ nav ul li:first-child a {
 .btn:active {
   transform: translateY(0);
 }
+
+.hero h1 {
+  font-size: 5vw;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  .header-inner {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .hero {
+    height: 60vh;
+  }
+}
