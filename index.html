@@ -4,32 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ChronoCafe – Time Café</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header>
-      <picture>
-        <img
-          src="images/logo.jpg"
-          alt="ChronoCafe Logo"
-          style="width: 120px; height: auto"
-        />
-      </picture>
-      <h1>ChronoCafe</h1>
-      <p>Where Time is the Real Luxury</p>
-      <nav>
-        <ul>
-          <li><a href="index.html">หน้าแรก</a></li>
-          <li><a href="about.html">เกี่ยวกับ</a></li>
-          <li><a href="services.html">บริการ</a></li>
-          <li><a href="contact.html">ติดต่อ</a></li>
-        </ul>
-      </nav>
+    <header id="header">
+      <div class="container header-inner">
+        <div class="brand">
+          <img src="images/logo.jpg" alt="ChronoCafe Logo" class="logo" />
+          <span class="brand-name">ChronoCafe</span>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="about.html">เกี่ยวกับ</a></li>
+            <li><a href="services.html">บริการ</a></li>
+            <li><a href="contact.html">ติดต่อ</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
       <section class="hero">
-        <h2>ยินดีต้อนรับสู่ ChronoCafe</h2>
-        <p>คาเฟ่ที่ขาย “เวลา” ให้คุณ ไม่ใช่กาแฟ</p>
+        <div>
+          <h1>CHRONOCAFE</h1>
+          <p>คาเฟ่ที่ขาย “เวลา” ให้คุณ ไม่ใช่กาแฟ</p>
+          <a href="services.html" class="btn">ดูบริการ</a>
+        </div>
       </section>
 
       <section class="services">
@@ -48,8 +50,8 @@
       </section>
     </main>
 
-    <footer>
-      <p>&copy; 2025 ChronoCafe — Crafted Time for Everyone</p>
+    <footer id="footer">
+      <p>© 2025 ChronoCafe — Crafted Time for Everyone</p>
       <nav>
         <ul>
           <li><a href="index.html">หน้าแรก</a></li>
