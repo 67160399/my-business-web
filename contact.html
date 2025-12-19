@@ -4,17 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact – ChronoCafe</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <header id="header">
+      <div class="container header-inner">
+        <div class="brand">
+          <img src="images/logo.jpg" alt="ChronoCafe Logo" class="logo" />
+          <span class="brand-name">ChronoCafe</span>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="about.html">เกี่ยวกับ</a></li>
+            <li><a href="services.html">บริการ</a></li>
+            <li><a href="contact.html">ติดต่อ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
     <h1>ติดต่อ ChronoCafe</h1>
 
     <form>
-      <input type="text" placeholder="ชื่อ" required />
-      <input type="email" placeholder="อีเมล" required />
-      <legend>ข้อมูลเพิ่มเติม:</legend>
-      <label for="message"></label>
-      <textarea id="message" name="message" rows="5" cols="40"></textarea>
-      <button type="submit">ส่งข้อความ</button>
+      <fieldset>
+        <input type="text" placeholder="ชื่อ" required />
+        <input type="email" placeholder="อีเมล" required />
+        <legend>ข้อมูลเพิ่มเติม:</legend>
+        <label for="message"></label>
+        <textarea id="message" name="message" rows="5" cols="40"></textarea>
+        <button type="submit">ส่งข้อความ</button>
+      </fieldset>
     </form>
 
     <h2>ที่อยู่ร้าน</h2>
@@ -35,4 +56,15 @@
     </iframe>
     <p><a href="index.html">กลับสู่หน้าแรก</a></p>
   </body>
+  <footer id="footer">
+    <p>© 2025 ChronoCafe — Crafted Time for Everyone</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">หน้าแรก</a></li>
+        <li><a href="about.html">เกี่ยวกับ</a></li>
+        <li><a href="services.html">บริการ</a></li>
+        <li><a href="contact.html">ติดต่อ</a></li>
+      </ul>
+    </nav>
+  </footer>
 </html>

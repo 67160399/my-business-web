@@ -1,42 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About – ChronoCafe</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <h1>เกี่ยวกับ ChronoCafe</h1>
+    <header id="header">
+      <div class="header-inner">
+        <div class="brand">
+          <img src="images/logo.jpg" alt="ChronoCafe Logo" class="logo" />
+          <span class="brand-name">ChronoCafe</span>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="about.html">เกี่ยวกับ</a></li>
+            <li><a href="services.html">บริการ</a></li>
+            <li><a href="contact.html">ติดต่อ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-    <p>
-      ChronoCafe เกิดจากแนวคิดที่ว่า “เวลา” คือความหรูหราที่ทุกคนคู่ควร
-      เราไม่ได้ขายกาแฟ แต่เราขายช่วงเวลาอันมีค่าที่คุณต้องการ—เวลาโฟกัส
-      เวลาเงียบสงบ หรือเวลาเริ่มต้นใหม่
-    </p>
+    <main class="container">
+      <section class="section">
+        <h1>เกี่ยวกับ ChronoCafe</h1>
+        <p>
+          ChronoCafe เกิดจากแนวคิดที่ว่า “เวลา” คือความหรูหราที่ทุกคนคู่ควร
+          เราไม่ได้ขายกาแฟ แต่เราขายช่วงเวลาอันมีค่าที่คุณต้องการ—เวลาโฟกัส
+          เวลาเงียบสงบ หรือเวลาเริ่มต้นใหม่
+        </p>
+      </section>
 
-    <h2>ทีมงาน</h2>
+      <section class="section">
+        <h2>ทีมงานของเรา</h2>
+        <div class="team-grid">
+          <figure class="card">
+            <img
+              src="images/p1.webp"
+              alt="คมสันต์ แซ่ลี"
+              style="width: 100%; border-radius: 5px"
+            />
+            <figcaption><b>คมสันต์ แซ่ลี</b></figcaption>
+          </figure>
 
-    <figure>
-      <img src="images/p1.webp" alt="คมสันต์ แซ่ลี" style="width: 45%" />
-      <figcaption><b>คมสันต์ แซ่ลี</b></figcaption>
-    </figure>
+          <figure class="card">
+            <img
+              src="images/p2.jpg"
+              alt="จิรายุส ทรัพย์ศรีโสภา"
+              style="width: 100%; border-radius: 5px"
+            />
+            <figcaption><b>จิรายุส ทรัพย์ศรีโสภา</b></figcaption>
+          </figure>
 
-    <figure>
-      <img src="images/p2.jpg" alt="จิรายุส ทรัพย์ศรีโสภา" style="width: 45%" />
-      <figcaption><b>จิรายุส ทรัพย์ศรีโสภา</b></figcaption>
-    </figure>
+          <figure class="card">
+            <img
+              src="images/p3.jpg"
+              alt="ck cheong"
+              style="width: 100%; border-radius: 5px"
+            />
+            <figcaption><b>ck cheong</b></figcaption>
+          </figure>
+        </div>
+      </section>
 
-    <figure>
-      <img src="images/p3.jpg" alt="ck cheong" style="width: 45%" />
-      <figcaption><b>ck cheong</b></figcaption>
-    </figure>
+      <section class="section">
+        <h2>Mission & Vision</h2>
+        <h3>Mission</h3>
+        <p>สร้างพื้นที่ที่ช่วยให้ผู้คนได้ใช้เวลาอย่างมีคุณค่า</p>
 
-    <h2>Mission</h2>
-    <p>สร้างพื้นที่ที่ช่วยให้ผู้คนได้ใช้เวลาอย่างมีคุณค่า</p>
+        <h3>Vision</h3>
+        <p>เป็นผู้นำด้าน “เวลาเชิงประสบการณ์” ระดับนานาชาติ</p>
+      </section>
 
-    <h2>Vision</h2>
-    <p>เป็นผู้นำด้าน “เวลาเชิงประสบการณ์” ระดับนานาชาติ</p>
+      <div style="margin-top: 2rem">
+        <a href="index.html" class="btn">กลับสู่หน้าแรก</a>
+      </div>
+    </main>
 
-    <p><a href="index.html">กลับสู่หน้าแรก</a></p>
+    <footer id="footer">
+      <p>© 2025 ChronoCafe — Crafted Time for Everyone</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="about.html">เกี่ยวกับ</a></li>
+          <li><a href="services.html">บริการ</a></li>
+          <li><a href="contact.html">ติดต่อ</a></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>

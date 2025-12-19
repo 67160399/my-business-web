@@ -4,50 +4,115 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Services – ChronoCafe</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <h1>บริการของ ChronoCafe</h1>
+    <header id="header">
+      <div class="header-inner">
+        <div class="brand">
+          <img src="images/logo.jpg" alt="ChronoCafe Logo" class="logo" />
+          <span class="brand-name">ChronoCafe</span>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="about.html">เกี่ยวกับ</a></li>
+            <li><a href="services.html">บริการ</a></li>
+            <li><a href="contact.html">ติดต่อ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-    <section>
-      <h2>Time to Focus</h2>
-      <p>พื้นที่สำหรับงานที่ต้องการสมาธิสูง</p>
-    </section>
+    <main class="container">
+      <section class="section">
+        <h1 style="text-align: center">บริการของ ChronoCafe</h1>
+        <p style="text-align: center">
+          เลือกประเภทเวลาที่เหมาะกับไลฟ์สไตล์ของคุณ
+        </p>
 
-    <section>
-      <h2>Time to Relax</h2>
-      <p>เวลาพักผ่อนแบบไม่ถูกกวนใจ</p>
-    </section>
+        <div class="services">
+          <div class="service-box card">
+            <h2>Time to Focus</h2>
+            <p>
+              พื้นที่สำหรับงานที่ต้องการสมาธิสูง
+              พร้อมอุปกรณ์อำนวยความสะดวกครบครัน
+            </p>
+          </div>
 
-    <section>
-      <h2>Time Reset</h2>
-      <p>ประสบการณ์เริ่มต้นใหม่ด้วยจิตใจที่ปลอดโปร่ง</p>
-    </section>
+          <div class="service-box card">
+            <h2>Time to Relax</h2>
+            <p>
+              เวลาพักผ่อนแบบไม่ถูกกวนใจ
+              ในบรรยากาศที่ถูกออกแบบมาเพื่อความผ่อนคลาย
+            </p>
+          </div>
 
-    <h2>แพ็กเกจเวลา</h2>
+          <div class="service-box card">
+            <h2>Time Reset</h2>
+            <p>
+              ประสบการณ์เริ่มต้นใหม่ด้วยจิตใจที่ปลอดโปร่ง
+              ผ่านโปรแกรมการใช้เวลาอย่างสงบ
+            </p>
+          </div>
+        </div>
+      </section>
 
-    <table>
-      <tr>
-        <th>แพ็กเกจ</th>
-        <th>เวลา</th>
-        <th>สิทธิพิเศษ</th>
-      </tr>
-      <tr>
-        <td>Basic</td>
-        <td>30 นาที</td>
-        <td>พื้นที่ส่วนตัว</td>
-      </tr>
-      <tr>
-        <td>Standard</td>
-        <td>1 ชั่วโมง</td>
-        <td>โซนพิเศษ + อุปกรณ์กันเสียง</td>
-      </tr>
-      <tr>
-        <td>Premium</td>
-        <td>2 ชั่วโมง</td>
-        <td>ห้องเวลาส่วนตัว + ไฟบำบัด</td>
-      </tr>
-    </table>
+      <section class="section">
+        <h2 style="text-align: center; display: block">
+          แพ็กเกจเวลา (Time Packages)
+        </h2>
+        <div class="card" style="overflow-x: auto; margin-top: 2rem">
+          <table>
+            <thead>
+              <tr>
+                <th>แพ็กเกจ</th>
+                <th>เวลา</th>
+                <th>สิทธิพิเศษ</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Basic</strong></td>
+                <td>30 นาที</td>
+                <td>พื้นที่ส่วนตัว + เครื่องดื่มเบสิก</td>
+              </tr>
+              <tr>
+                <td><strong>Standard</strong></td>
+                <td>1 ชั่วโมง</td>
+                <td>โซนพิเศษ + อุปกรณ์กันเสียงระดับพรีเมียม</td>
+              </tr>
+              <tr>
+                <td><strong>Premium</strong></td>
+                <td>2 ชั่วโมง</td>
+                <td>ห้องเวลาส่วนตัว + ไฟบำบัด + บริการพิเศษ</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-    <p><a href="index.html">กลับสู่หน้าแรก</a></p>
+      <div style="text-align: center; margin-top: 3rem">
+        <a href="index.html" class="btn">กลับสู่หน้าแรก</a>
+        <a
+          href="contact.html"
+          class="btn"
+          style="background-color: #333; margin-left: 10px"
+          >จองเวลาเลย</a
+        >
+      </div>
+    </main>
+
+    <footer id="footer">
+      <p>© 2025 ChronoCafe — Crafted Time for Everyone</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="about.html">เกี่ยวกับ</a></li>
+          <li><a href="services.html">บริการ</a></li>
+          <li><a href="contact.html">ติดต่อ</a></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
